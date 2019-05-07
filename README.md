@@ -1,4 +1,4 @@
-# Eat-Da-Burger
+# Eat-Da-Burger!
 
 In this project, we were asked to create a page, or burger logger, that would allow users to see a list of burgers pre-coded into a database that have yet to be devoured, the ability for the user to add any type of burger to the database, and then have a button that would devour (electronically of course) each burger and move them to the 'Eaten' part of the page.  The user would also have the opportunity to un-eat a burger to move it back to the 'yet to be devoured' part of the page, and then also the ability to delete a burger from the database also.
 

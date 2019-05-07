@@ -5,6 +5,7 @@ var router = express.Router();
 
 var Character = require("../models/burger.js");
 
+//===== GET ALL =======================
 router.get("/", function(req, res) {
     burger.all(function(data) {
         var newBurger = {
@@ -15,6 +16,7 @@ router.get("/", function(req, res) {
     });
 });
 
+//===== ADD BURGER ==================
 router.post("/api/burgers", function(req, res) {
     burger.create([
         "burger_name", "devoured"
@@ -25,13 +27,13 @@ router.post("/api/burgers", function(req, res) {
     });
 });
 
+//===== UPDATE BURGER ===============
 router.put("/api/burgers/:id", function(req, res) {
     var condition = "id = " + req.params.id;
 
     console.log("Condition: ", condition);
     console.log(req.body.devoured);
     
-
     burger.update({
         devoured: req.body.devoured
     }, condition, function(result) {
@@ -43,6 +45,7 @@ router.put("/api/burgers/:id", function(req, res) {
     });
 });
 
+//===== DELETE BURGER ===============
 router.delete("/api/burgers/:id", function(req, res) {
     var condition = "id = " + req.params.id;
 

@@ -1,13 +1,21 @@
 
 var mysql = require("mysql");
 
-var connection = mysql.createConnection({
-    port: 3306,
-    host: "localhost",
-    user: "root",
-    password: "KendallJane87",
-    database: "burgers_db"
-});
+var connection;
+  if (process.env.JAWSDB_URL) {
+//Database is JawsDB on Heroku
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+  } else {
+//Database is local
+    connection = mysql.createConnection({
+      port: 3306,
+      host: "localhost",
+      user: "root",
+      password: "KendallJane87",
+      database: "burgers_db"
+    })
+  };
+
   
 //CONNECT TO DB
 connection.connect(function(err) {
@@ -20,6 +28,7 @@ connection.connect(function(err) {
   
 //Export connection
 module.exports = connection;
+
 
 
 // var Sequelize = require("sequelize");

@@ -27,7 +27,6 @@ var burger = {
 module.exports = burger;
 
 
-
 // var Sequelize = require("sequelize");
 // var sequelize = require("../config/connection.js");
 

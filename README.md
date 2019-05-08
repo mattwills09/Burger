@@ -2,6 +2,8 @@
 
 In this project, we were asked to create a page, or burger logger, that would allow users to see a list of burgers pre-coded into a database that have yet to be devoured, the ability for the user to add any type of burger to the database, and then have a button that would devour (electronically of course) each burger and move them to the 'Eaten' part of the page.  The user would also have the opportunity to un-eat a burger to move it back to the 'yet to be devoured' part of the page, and then also the ability to delete a burger from the database also.
 
+![Eat-Da-Burger](public/assets/img/Eat-Da-Burger.jpg)
+
 Creating this project the technologies used were mysql, node, express, express handlebars and ORM.  We also used the MVC design pattern to separate the server connection and configuration in a 'config' folder, a controller folder and page that would define and export our router, a database folder to hold our schema and seeds for the start of the burger database, a models folder that would bring in our ORM and create a burger variable that would hold the 'get, create, update and delete' functions, a public folder to hold our css, images and javascript files, a views folder to hold our handlebars folder (index. and main.handlebars), a routes folder for our API calls, and lastly all of the node_modules from our required installs - mysql, express and express-handlebars.
 
 ![Burger-ORM-router](public/assets/img/Burger-ORM-router.jpg)

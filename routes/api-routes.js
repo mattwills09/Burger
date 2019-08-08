@@ -5,7 +5,7 @@ var router = express.Router();
 
 var Character = require("../models/burger.js");
 
-//===== GET ALL =======================
+//===== GET ALL BURGERS ============
 router.get("/", function(req, res) {
     burger.all(function(data) {
         var newBurger = {

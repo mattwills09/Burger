@@ -1,6 +1,6 @@
 # Eat-Da-Burger!
 
-In this project, we were asked to create a page, or 'burger logger' if you please (very loosely based off of the TV show, "Bob's Burgers"), that would allow the user to see a list of burgers pre-coded into a database that have been eaten already or yet to be devoured, also allows the option for the user to add any type of burger of their choosing to the database, and then have a button that would devour (electronically of course) each burger and move them to the 'Eaten' part of the page.  The user would also have the opportunity to un-devour a burger to move it back to the 'yet to be devoured' part of the page, and then also the ability to delete a burger from the database also.
+In this single page application, we were tasked with creating a site, or 'burger logger' if you please (very loosely based off of the TV show, "Bob's Burgers"), that would allow the user to see a list of burgers pre-coded into a database that have been eaten already or yet to be devoured, also allows the option for the user to add any type of burger of their choosing to the database, and then have a button that would devour (electronically of course) each burger and move them to the 'Eaten' part of the page.  The user would also have the opportunity to un-devour a burger to move it back to the 'yet to be devoured' part of the page, and then also the ability to delete a burger from the database also.
 
 ___
 ![Eat-Da-Burger](public/assets/img/Eat-Da-Burger.jpg)
